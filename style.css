@@ -6,9 +6,9 @@ body{
     background-color: black;
 }
 .wrapper{
-    max-width: 1800px;
+    max-width: 1400px;
     margin: 0 auto;
-    border: 2px solid white;
+    
     
 }
 h1{
@@ -65,13 +65,14 @@ section img{
 h2{
     color: cornsilk;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 a:hover{
     color: red;
     text-decoration: none;
 }
 a:visited{
-    color: thistle;
+    color: rgb(207, 207, 8);
 }
 a{
     color: white;
@@ -80,6 +81,7 @@ a{
 }
 p{
     margin-left: 20px;
+    font-family: 'Source Code Pro', monospace;;
 }
 .fleximg{    
     display: flex;
@@ -93,6 +95,7 @@ p{
 .footer-nav{
     display: flex;
     justify-content: space-evenly;
+    
 }
 footer{
     background-color: rgb(51, 16, 16);
@@ -102,4 +105,44 @@ section p{
     font-size: 20px;
 }footer p{
     text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.back-story{
+    letter-spacing: 1.2;
+    font-size: 18;
+    margin: 20px 20px;
+}
+.contact-body{
+    background-image: url(images/necrons.jpg);
+    background-position: cover;
+    background-size: cover;
+    
+}
+#form-input{
+    background-color: rgba(0,0,0, 0.7);
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    color: salmon;
+}
+#name{
+    font-size: 30px;
+}
+.chaos-gods{
+    text-align: center;
+}
+.chaos-text{
+margin: 20px 20px;
+    font-size: 20px;
+}
+.img1{
+    border: 0.5px solid white;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+strong{
+    text-decoration: underline;
 }
