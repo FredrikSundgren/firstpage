@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,46 +8,52 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Contact</title>
 </head>
+
 <body>
+   
     <header>
-        <h1 class="header-img"><img src="images/whBlack.png" alt="Warhammer 40k logo"></h1>
+        <div class="banner">
+            <img class="empImg" src="images/Warhammer_40000_logo.png" alt="Warhammer 40k logo">
+            </div>
     </header>
     <div class="wrapper-contact">
-    <nav class="main-nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Emperor.html">The Emperor</a></li>
-            <li><a href="Chaos.html">Chaos Gods</a></li>
-            
-            </a>
-        </ul>
-    </nav>
-    
-    <form id="form-input">
-         <label for=" name">Name</label>
-         <input type="text"  name="Name" id="name"  required>
-         <label for="Email">Email</label>
-         <input type="text" name="email" id="email" required> 
-         <label for="message">Message</label>       
-         <textarea name="Message" id="message" cols="30" rows="10" ></textarea>
-         <input type="submit" value="Send" id="button">
-    </form>
-    <footer id=cfooter>
         <nav class="main-nav">
             <ul>
-                <li><a href="https://www.youtube.com/watch?v=WxZMOAmtWPw">40k Dark Origins</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=UszZz_XC1YE">40k Timeline</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Emperor.html">The Emperor</a></li>
+                <li><a href="Chaos.html">Chaos Gods</a></li>
+
+                </a>
             </ul>
         </nav>
-        <p>Copyright Fredrik Sundgren 2021</p>
-        
+
+       <form class="grid-form">
+           <label for="name"></label>
+           <input type="text" name="name" class="name" placeholder="Name" required>
+           <label for="lastName"></label>
+           <input type="text" name="name" class="lastName" placeholder="Last Name" required>
+           <label for="email"></label>
+           <input type="text" name="email" class="email" placeholder="Email" required>
+           <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+           <button>Send</button>
+       </form>
+        <footer class="contactFooter">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=WxZMOAmtWPw">40k Dark Origins</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=UszZz_XC1YE">40k Timeline</a></li>
+                </ul>
+            </nav>
+            <p>Copyright Fredrik Sundgren 2021</p>
+
         </footer>
     </div>
 
 </body>
+
 </html>
